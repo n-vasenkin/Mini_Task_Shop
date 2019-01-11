@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=Staatliches');
+main{padding: 20px 20px 20px 100px}
+header,nav{
+    background: #2f3242;
+    -webkit-box-shadow: 0 0 28px 6px rgba(23,24,32,0.3);
+    -moz-box-shadow: 0 0 28px 6px rgba(23,24,32,0.3);
+    box-shadow: 0 0 28px 6px rgba(23,24,32,0.3);
+}
+/* Header */
+.align_center, .header_panel > div{
+    display: flex;
+    align-items: center;
+}
+header{
+    padding: 20px 30px;
+    justify-content: space-between;
+}
+.vasenkin{
+    color: white;
+    font-family: 'Staatliches', cursive;
+    font-size: 40px;
+    cursor: pointer;
+}
+.vasenkin:hover{color: #33b5e5}
+#search, #notification, #user_panel{cursor: pointer}
+#search{ margin-right: 30px }
+#notification{ position: relative }
+.ball{
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 50%;
+    width: 11px;
+    height: 11px;
+    background: #2196f3;
+    border: 1px solid #2b2d3c;
+}
+#user_panel{ margin-left: 40px }
+#user_icon{
+    width: 40px;
+    margin-right: 10px;
+}
+/* Navigation */
+nav{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    height: 100vh;
+}
+nav a{ padding: 20px }
+nav a:hover{background: #d7d5e2}
+nav a img{ width: 40px }

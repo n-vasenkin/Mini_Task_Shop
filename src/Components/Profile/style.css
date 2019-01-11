@@ -1,0 +1,14 @@
+.profile_main{
+    display: flex;
+    flex-wrap: wrap;
+}
+.profile_column{
+    width: 35%;
+    margin: 0 1.5%;
+    border: 1px solid #ffffff;
+    padding: 20px;
+}
+.list_my_prod{
+    border-bottom: 1px solid #ffffff;
+    padding: 10px 0;
+}

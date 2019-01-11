@@ -1,0 +1,33 @@
+.shop_main{
+    display: flex;
+}
+.left_shop{
+    width: 60%;
+}
+.product_box{
+    margin-top: 40px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.product{
+    display: block;
+    width: 29%;
+    margin: 0 2% 20px 2%;
+}
+.search_input{
+    display: block;
+    margin-left: 2%!important;
+    color: #ffffff!important;
+}
+.MuiInputBase-root-36{color: #ffffff!important}
+.basket_shop{
+    width: 36%;
+    margin: 0 2%;
+    padding: 20px;
+    border: 1px solid #fff;
+}
+.sum_table{
+    width: 100%;
+    text-align: right;
+}

@@ -1,0 +1,27 @@
+.task_main h1{
+    font-weight: bold;
+    font-size: 25px;
+}
+.task_main input{
+    margin: 10px 10px 10px 0;
+    padding: 5px 10px;
+    font-size: 18px;
+    border: 1px solid #000000;
+    border-radius: 4px;
+}
+.add_product{
+    border: 1px solid #000000;
+    font-size: 18px;
+    padding: 5px 10px;
+    background: #33b5e5;
+    color: white;
+    cursor: pointer;
+}
+.list{
+    display: flex;
+    flex-wrap: wrap;
+}
+.products_card{
+    width: 18%;
+    margin: 1% 2% 1% 0;
+}
